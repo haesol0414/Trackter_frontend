@@ -1,0 +1,26 @@
+.commentBox {
+  width: 100%;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  gap: 20px;
+  margin-top: 30px;
+
+  .commentInput {
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+  }
+  .commentButton {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+  }
+}
